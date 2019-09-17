@@ -26,7 +26,7 @@ if(!isset($_REQUEST['cookie']) and !isset($_REQUEST['body'])  )
 
 { 
 
-    // User is just visited haven't send credentials yet. 
+    // Someone just visits the page. 
 
     $file = fopen(IP_FILE_NAME, "a"); 
 
