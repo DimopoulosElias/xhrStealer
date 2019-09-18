@@ -1,6 +1,6 @@
 <?php 
 
-  
+header("Access-Control-Allow-Origin: *");
 
 define("CRENDETIALS_FILE_NAME", "S@v3H3reTh3Password.txt"); 
 
